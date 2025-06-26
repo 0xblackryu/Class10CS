@@ -571,13 +571,6 @@ int main() {
 
     while (temp != 0) {
         digit = temp % 10;
-
-        // Check if digit is valid for octal (0 to 7)
-        if (digit < 0 || digit > 7) {
-            printf("Invalid octal digit: %d\n", digit);
-            return 1;
-        }
-
         decimal += digit * pow(8, i);
         temp /= 10;
         i++;
@@ -729,10 +722,16 @@ int main(){
 
 Ans : If the condition in a while loop is initially false, the loop will not execute, and the block of statements inside the loop will be skipped.
 
-10. What is the use of break statement? 
-11. What is the use of continue statement? 
+10. What is the use of break statement? <br>
+Ans : The break statement is used to transfer the control to the end of a statement block in a loop.
+
+11. What is the use of continue statement? <br>
+Ans : The continue statement is used to transfer the control to the beginning of a statement block in a loop.
+
 12. exit(0) in a C program represents <ins>termination of a program</ins>
-13. List a few unconditional control statements in C.
+13. List a few unconditional control statements in C.<br>
+Ans : goto statement , break statement and continue statement.
+
 14. Give an alternative for multiple if statements in C.<br>
 
 Ans : An alternative for multiple if statements in C is the switch statement
