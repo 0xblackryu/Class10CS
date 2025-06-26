@@ -307,21 +307,45 @@ Ans : 3 4 4
 4. Explain the significance of the following control specifiers:
 
 (a) **%c**
-(b) **%0**
+(b) **%o**
 (c) **%x**
-(d) **%d**
+(d) **%d**<br>
 
-5. What is a header file in C? List any two header files.
+Ans: `%c` : It is used to represent a single character. It can be used to take input/output of a single character.<br>
+     `%o` : It is used to represent an unsigned octal value. It can be used to take input/output of an unsigned octal value. (octal value refers to base 8 numbers)<br>
+     `%x` : It is used to represent an unsigned hexadecimal value. It can be used to take input/output of an unsigned hexadecimal value. (hexadecimal refers to base 16 numbers)<br>
+     `%d` : It is used to represent a decimal integer value. It can be used to take input/output of an integer value.<br>
 
-6. The line from which a program execution begins is________.
+5. What is a header file in C? List any two header files.<br>
 
-7. The sign `#` of the compiler directive must appear at the __________ of a line.
+Ans: 
 
-8. Write four different C statements each adding 1 to integer variable x.
+6. The line from which a program execution begins is <ins>main()</ins>.
 
-9. How do you generate an alarm/beep using `printf`?
+7. The sign `#` of the compiler directive must appear at the <ins>top</ins> of a line.
 
-10. What is the difference between `getchar()` and `getche()`?
+8. Write four different C statements each adding 1 to integer variable x.<br>
+
+Ans : <p> The four different C statements each adding 1 to integer variable x are : <br>
+      1. x = x + 1;<br>
+      2. x += 1;<br>
+      3. x++;<br>
+      4. ++x;<br>
+</p>
+      
+9. How do you generate an alarm/beep using `printf`?<br>
+
+Ans : We can generate an alarm/beep using `printf` by using the '`\a`' escape sequence. 
+
+10. What is the difference between `getchar()` and `getche()`?<br>
+
+Ans : 
+
+| getchar() | getchare() |
+| --- | --- |
+| 1. It does not display the character. | 1. It display the character. |
+| 2. It expect the 'Enter' key to be press | 2. It does not expect the 'Enter' key to be press. |
+| 3. It is present in the 'stdio.h' header file. | 3. It is present in the 'conio.h' header file. |
 
 11. What is an escape sequence? What is its purpose?
 
@@ -329,7 +353,9 @@ Ans : 3 4 4
 `#include <stdio.h>` <br>
 `#include <math.h>` <br>
 
-13. Explain with examples the syntax of `scanf()` and `printf()` functions.
+13. Explain with examples the syntax of `scanf()` and `printf()` functions.<br>
+
+Ans : 
 
 14. What is the difference between C character and C string?
 
@@ -345,17 +371,26 @@ Ans : 3 4 4
 
 20. Obtain the output of the following statements in C. The variables `count`, `amt` and `city` have the following values.<br>
 ```
-int count =1275; 
-float amt =-235.74;
-char city [10] = "Chennai";
-```
-`(a) printf("%d\f", count, amt);`<br>
-`(b) printf("%-10d%-15s", count, city);`<br>
+  int count =1275; 
+  float amt =-235.74;
+  char city [10] = "Chennai";
+  ```
+  `(a) printf("%d%f", count, amt);`<br>
+  `(b) printf("%-10d%-15s", count, city);`<br>
 
 Ans : 
 
-21. How can precision be specified in `printf` function?
+a) `1275-235.74`<br>
+b) `1275      Chennai`<br>
+
+21. How can precision be specified in `printf` function?<br>
+
+Ans : We can specified the precision in `printf` by using a formatted print with required number of decimal digits for float type varibales.<br>
 
 22. A C program contains the following variable declaration:
 `int i = 12345, j = 0xbcd9, k077777;`
-What will be the output of the `printf()` function?
+What will be the output of the `printf()` function?<br>
+
+Ans : i = 12345,<br>
+      j = 0xbcd9 = 48345 (converting hexadecimal to decimal value, the number starting with `0x` is in form of hexadecimal. )<br>
+      k = 077777 = 32767 (converting octal to decimal value, the number starting with `0` is in form of octal.)<br>
