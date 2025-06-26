@@ -103,51 +103,81 @@ Ans : Arithmetic operators are used to perform arithmetic operations while assig
 10. Explain bitwise logical operators available in C. Discuss the order of evaluation.<br>
 
 Ans : 
+    1. Bitwise Left Shift(<<) : It is used to shift a bit position by inserting new bits at left side.<br>
+    2. Bitwise Right Shift (>>) : It is used to shift a bit position by inserting new bits at right side.<br> 
+    3. Bitwise AND (&) : It is used to compare a binary number and the result can be 1 only when both bits are 1.<br>
+    4. Bitwise OR (|) : It is used to compare a binary number and the result is 1 when any of the bit is 1 result can be 0 only when both bits are 0.<br>
+    5. Bitwise Inversion(~) : It is used to invert a binary number. The operator turns the 1 bit to 0 and 0 bit to 1.<br>
+    6. Bitwise Exclusive OR (^) : It is used to compare a binary number.The result is 1 when both bits are different and 0 when the bits are same.<br>
+    The order of evaluation : <br>
+    1. Bitwise Left Shift<br>
+    2. Bitwise Right Shift<br>
+    3. Bitwise Inversion
+    4. Bitwise AND
+    5. Bitwsie OR
+    6. Bitwise Exclusive OR
 
 11. List the different types of operators in C. Discus the following with examples: (a) conditional operators (b) relational operators.<br>
 # SHORT QUESTIONS 
-1. C language has been developed by _________.
-2. Like decimal number system, octal and hexadecimal system can also be used in C language. (True/False) 
-3. An octal mumber is preceded by ________ and a hexadecimal number in preceded by _________.
-4. An identifier/variable can begin with `_`(underscore). (True/False) 
-5. Mention the basic data types used in C language. 
-6. A variable declared as `long int` occupies _________ bytes of memory.
-7. If 'a' is an integer variable, then a=5/2 will return value __________.
-8. Bitwise operators are for manipulation of ______________ in bit level.
-9. Define nibble and byte. 
-10. Explain terniary operator. 
-11. What is the purpose of type declaration in C?
-12. What are library functions? Mention any four library functions in C (functions available in math.h)?
-13. What are the logical operators available in C? 
-14. How does x++ differ from ++x? 
-15. __________ is the operator which represents the bitwise OR operator. 
-16. What is an identifier? 
-17. A variable in C can be declared as float (real) if it is within the range _________ to ___________.
-18. The relational operation that are commonly used in C are,__________,___________,_________,___________,___________,_________.
-19. In C language a comment starts with the symbol _________ and ends with ___________.
-20. Discuss the increment operator in C. 
-21. Discuss the decrement operator in C.
-22. What are the bit operators used in C.
-23. Determine the value of the following logical expression for a=5, b=10, c=-6.
+1. C language has been developed by <ins>Dennis Ritchie</ins>.
+2. Like decimal number system, octal and hexadecimal system can also be used in C language. (True/False) : `TRUE` 
+3. An octal mumber is preceded by <ins>0</ins>and a hexadecimal number in preceded by <ins>0x</ins> 
+4. An identifier/variable can begin with `_`(underscore). (True/False)  :  `TRUE`
+5. Mention the basic data types used in C language. <br>
+Ans : The basic data types used in C language are : <br>
+    int, char, double, float etc.
+
+6. A variable declared as `long int` occupies <ins>4</ins> bytes of memory.
+7. If 'a' is an integer variable, then a=5/2 will return value <ins>2</ins>.
+    8. Bitwise operators are for manipulation of <ins>data</ins> in bit level.
+9. Define nibble and byte.<br> 
+Ans : Nibble:
+A nibble is a group of 4 bits (half of a byte). It can represent values from 0 to 15 in decimal (or 0000 to 1111 in binary).
+
+Byte:
+A byte is a group of 8 bits. It is the basic addressable unit of memory in most computer systems and can represent values from 0 to 255 in decimal (00000000 to 11111111 in binary).
+
+11. Explain ternary operator. <br>
+
+Ans : Ternary operator is used to check a condition and select a value depending on the value of the condition.
+      The syntax of ternay operator is : <br>
+      Variable = (condition)? value1 : value2;<br>
+      when the condtion is evaluated, if the condition is `true`, the `value1` is assigned to the variable and if the condition is `false` the `value2` will be assigned to the variable.   
+
+12. What is the purpose of type declaration in C?<br>
+Ans : The purpose of type declaration in C is to define the type of data that a variable can hold
+
+13. What are library functions? Mention any four library functions in C (functions available in math.h)?
+14. What are the logical operators available in C? 
+15. How does x++ differ from ++x? 
+16. <ins>|</ins> is the operator which represents the bitwise OR operator. 
+17. What is an identifier? 
+18. A variable in C can be declared as float (real) if it is within the range _________ to ___________.
+19. The relational operation that are commonly used in C are,__________,___________,_________,___________,___________,_________.
+20. In C language a comment starts with the symbol _________ and ends with ___________.
+21. Discuss the increment operator in C. 
+22. Discuss the decrement operator in C.
+23. What are the bit operators used in C.
+24. Determine the value of the following logical expression for a=5, b=10, c=-6.
     (i) a == c ¦¦ b > a
     (ii) b > c && < 0 a > 0
-24. Which of the following identifiers are invalid.
+25. Which of the following identifiers are invalid.
     (i) total
     (ii) average_value
     (iii) 6month
     (iv) cd 200
     (v) _sum
     (vi) rate$
-25. For 9%4 the output is _________.
-26. i += 1 can also be written as _____________.
-27. __________ is the operator which represents bitwise exclusive OR.
-28. How does the type `float` differ from `double` in C language? 
-29. What is an operator? What is an operand? 
-30. Explain with an example the usage of shorthand assignment operator. 
-31. Mention the applications of C language. 
-32. What do you mean by case-sensitive? Is C a case-sensitive language? 
-33. ___________ data items are real data items that provide greater precision than is normally provided by the real data items.
-34. Give the declaration for the string "COMPUTER" in C. 
+26. For 9%4 the output is _________.
+27. i += 1 can also be written as _____________.
+28. __________ is the operator which represents bitwise exclusive OR.
+29. How does the type `float` differ from `double` in C language? 
+30. What is an operator? What is an operand? 
+31. Explain with an example the usage of shorthand assignment operator. 
+32. Mention the applications of C language. 
+33. What do you mean by case-sensitive? Is C a case-sensitive language? 
+34. ___________ data items are real data items that provide greater precision than is normally provided by the real data items.
+35. Give the declaration for the string "COMPUTER" in C. 
 
 
 
