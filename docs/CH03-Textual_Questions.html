@@ -129,23 +129,191 @@ int main() {
       </li>
 
       <li>
-        <p>Write a C program to find the area and circumference of a circle of radius r.</p>
+        <p>Write a C program to find the value of y using the relation y = x² + 2x - 1.</p>
         <div class="answer">
           <pre><code class="language-c">#include <stdio.h>
 
 int main() {
-    float r, area, circumference;
+    float x, y;
 
-    printf("Enter Radius of the Circle : ");
-    scanf("%f", &r);
+    printf("Enter the value of x : ");
+    scanf("%f", &x);
 
-    area = 22.0/7.0 * r * r; 
-    circumference = 2 * 22.0/7.0 * r;
+    y = x * x + 2 * x - 1;
 
-    printf("Area of circle : %.2f\n", area);
-    printf("Circumference of Circle : %.2f\n", circumference);
+    printf("The value of y : %6.2f\n", y);
     return 0;
 }</code></pre>
+        </div>
+      </li>
+
+      <li>
+        <p>Write a C program to find the ASCII character of a given integer.</p>
+        <div class="answer">
+          <pre><code class="language-c">#include <stdio.h>
+
+int main() {
+    int n;
+
+    printf("Enter number : ");
+    scanf("%d", &n);
+
+    printf("Character : %c\n", n);
+    return 0;
+}</code></pre>
+        </div>
+      </li>
+
+      <li>
+        <p>Explain scanf() and printf() functions in C.</p>
+        <div class="answer">
+          <p>
+            printf function is used to print/display values of variables using the standard output device (monitor).
+            It can also be used to print any character of our choice in the monitor. Whereas,
+            scanf function is used to read/input values of variables using the standard input device (keyboard).
+            It is used in a program to take input from the user or where there is necessary for user interaction.
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <p>Explain the various character input/output functions in C.</p>
+        <div class="answer">
+          <ul>
+            <li>getchar() function: It is used to read one character at a time from the standard input device (keyboard).</li>
+            <li>putchar() function: It is used to display one character at a time on the monitor screen.</li>
+            <li>getch() function: It is used to read a character from the keyboard and it does not expect the enter key press.</li>
+            <li>putch() function: It is used to display a character on the monitor.</li>
+            <li>gets() function: It is used to read a string of characters including white space.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li>
+        <p>Mention the various conversion specifications for data I/O in C.</p>
+        <div class="answer">
+          <p>For integers:</p>
+          <ul>
+            <li>%d: represents a decimal integer value</li>
+            <li>%u: represents an unsigned integer value</li>
+            <li>%o: represents an unsigned octal value</li>
+            <li>%x: represents an unsigned hexadecimal value</li>
+          </ul>
+          <p>For floating-point numbers:</p>
+          <ul>
+            <li>%f: represents a floating point value</li>
+            <li>%e: represents a floating point value in decimal or exponential form</li>
+          </ul>
+          <p>For characters:</p>
+          <ul>
+            <li>%c: represents a single character value</li>
+            <li>%s: represents a string of characters</li>
+          </ul>
+        </div>
+      </li>
+
+      <li>
+        <p>Write a C program to calculate simple interest using formula I = (PNR)/100.</p>
+        <div class="answer">
+          <pre><code class="language-c">#include <stdio.h>
+
+int main() {
+    float P, N, R, I;
+
+    printf("Enter Principal : $ ");
+    scanf("%f", &P);
+
+    printf("Enter Time : ");
+    scanf("%f", &N);
+
+    printf("Enter Rate : ");
+    scanf("%f", &R);
+
+    I = (P * N * R) / 100.0;
+
+    printf("Interest : $ %6.2f\n", I);
+    return 0;
+}</code></pre>
+        </div>
+      </li>
+
+      <li>
+        <p>Write a C program to swap (exchange) the values of two variables A and B without using a temporary variable.</p>
+        <div class="answer">
+          <p>Hint: The following assignments are used to swap the values:</p>
+          <ol>
+            <li>A = A + B</li>
+            <li>B = A - B</li>
+            <li>A = A - B</li>
+          </ol>
+          <pre><code class="language-c">#include <stdio.h>
+
+int main() {
+    int A, B;
+
+    printf("Enter value of A: ");
+    scanf("%d", &A);
+
+    printf("Enter value of B: ");
+    scanf("%d", &B);
+
+    A = A + B;
+    B = A - B;
+    A = A - B;
+
+    printf("After swapping:\n");
+    printf("A = %d\n", A);
+    printf("B = %d\n", B);
+    return 0;
+}</code></pre>
+        </div>
+      </li>
+
+      <li>
+        <p>How can the minimum field width for a data item be specified using the printf() function?</p>
+        <div class="answer">
+          <p>
+            The minimum field width can be specified using a number before the format specifier in printf().
+            For example:
+          </p>
+          <ul>
+            <li>%5d - specifies a minimum field width of 5 characters for an integer</li>
+            <li>%10f - specifies a minimum field width of 10 characters for a float</li>
+          </ul>
+          <p>
+            If the value is shorter than the specified width, it will be padded with spaces.
+            If the value is longer, it will be printed in its entirety.
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <p>What are the advantages of getche() over scanf()?</p>
+        <div class="answer">
+          <ul>
+            <li>getche() reads a single character without waiting for Enter key</li>
+            <li>getche() is faster as it doesn't require buffer flushing</li>
+            <li>getche() is more suitable for reading single characters in interactive programs</li>
+            <li>getche() doesn't require format specifiers</li>
+          </ul>
+        </div>
+      </li>
+
+      <li>
+        <p>Obtain the output of the following statements in C. The variables count, amt and city have the following values:</p>
+        <div class="answer">
+          <p>count = 123, amt = 1234.56, city = "Delhi"</p>
+          <ol>
+            <li>printf("%d %f %s", count, amt, city);</li>
+            <li>printf("%5d %7.2f %10s", count, amt, city);</li>
+            <li>printf("%-5d %-7.2f %-10s", count, amt, city);</li>
+          </ol>
+          <p>Output:</p>
+          <ol>
+            <li>123 1234.560000 Delhi</li>
+            <li> 123 1234.56    Delhi</li>
+            <li>123  1234.56 Delhi     </li>
+          </ol>
         </div>
       </li>
     </ol>
