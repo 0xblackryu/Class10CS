@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 3 - Textual Questions</title>
+    <style>
+      :root {
+        --primary-color: #2c3e50;
+        --secondary-color: #34495e;
+        --background-color: #ecf0f1;
+        --text-color: #2c3e50;
+        --code-background: #f8f9fa;
+        --code-color: #2c3e50;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: var(--text-color);
+        background-color: var(--background-color);
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1 {
+        color: var(--primary-color);
+        border-bottom: 2px solid var(--secondary-color);
+        padding-bottom: 10px;
+      }
+
+      .question-list {
+        list-style: none;
+        padding: 0;
+      }
+
+      .question-list li {
+        margin-bottom: 20px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .answer {
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 1px solid #eee;
+      }
+
+      code {
+        background-color: var(--code-background);
+        color: var(--code-color);
+        padding: 2px 4px;
+        border-radius: 4px;
+      }
+
+      pre {
+        background-color: var(--code-background);
+        padding: 15px;
+        border-radius: 4px;
+        overflow-x: auto;
+      }
+
+      pre code {
+        padding: 0;
+      }
+
+      .language-c {
+        color: #2c3e50;
+      }
+
+      .short-question {
+        font-weight: bold;
+      }
+
+      ol, ul {
+        margin-left: 20px;
+      }
+
+      .note {
+        color: #7f8c8d;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Chapter 3 - Textual Questions</h1>
+    <ol class="question-list">
+      <li>
+        <p>Write a C program to find the sum and average of three given numbers.</p>
+        <div class="answer">
+          <pre><code class="language-c">#include <stdio.h>
+
+int main() {
+    int num1, num2, num3, sum = 0;
+    float average = 0;
+
+    printf("Enter 3 numbers : ");
+    scanf("%d %d %d", &num1, &num2, &num3);
+
+    sum = num1 + num2 + num3;
+    average = (num1 + num2 + num3) / 3.0;
+
+    printf("Sum : %d \nAverage : %6.2f\n", sum, average);
+    return 0;
+}</code></pre>
+        </div>
+      </li>
+
+      <li>
+        <p>Write a C program to convert temperature in °C to °F using the relation °F = 1.8°C + 32.</p>
+        <div class="answer">
+          <pre><code class="language-c">#include <stdio.h>
+
+int main() {
+    float cel, far;
+
+    printf("Enter Celsius : ");
+    scanf("%f", &cel);
+
+    far = 1.8 * cel + 32;
+
+    printf("Farenheit : %6.2f°F\n", far);
+    return 0;
+}</code></pre>
+        </div>
+      </li>
+
+      <li>
+        <p>Write a C program to find the area and circumference of a circle of radius r.</p>
+        <div class="answer">
+          <pre><code class="language-c">#include <stdio.h>
+
+int main() {
+    float r, area, circumference;
+
+    printf("Enter Radius of the Circle : ");
+    scanf("%f", &r);
+
+    area = 22.0/7.0 * r * r; 
+    circumference = 2 * 22.0/7.0 * r;
+
+    printf("Area of circle : %.2f\n", area);
+    printf("Circumference of Circle : %.2f\n", circumference);
+    return 0;
+}</code></pre>
+        </div>
+      </li>
+    </ol>
+  </body>
+</html>
