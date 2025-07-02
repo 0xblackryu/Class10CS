@@ -1,3 +1,7 @@
+---
+layout: default
+title: CH02
+---
 > [!IMPORTANT]
 > All documentation will be on this readme no separate files
 

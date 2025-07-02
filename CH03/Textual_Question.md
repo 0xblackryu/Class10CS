@@ -1,6 +1,9 @@
-# SECTION A: REVIEW QUESTIONS AND EXERCISES
+---
+layout: default
+title: CH03 Textual Questions
+---
 
-  ---
+# SECTION A: REVIEW QUESTIONS AND EXERCISES
 
 Q1. Write a C program to find the sum and average of three given numbers . <br>
 Ans:

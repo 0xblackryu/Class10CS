@@ -1,3 +1,8 @@
+---
+layout: default
+title: CH01
+---
+
 # CH01 : Algorithm for Problem Solving 
 
 ### MORE ALGORITHM ARE COMING SOON ...

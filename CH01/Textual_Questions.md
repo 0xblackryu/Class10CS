@@ -1,3 +1,8 @@
+---
+layout: default
+title: CH01 Textual Questions
+---
+
 # REVIEW QUESTIONS AND EXERCISES
 
 1. Write the algorithm and draw the flowchart to find the average of given 3 values.<br>

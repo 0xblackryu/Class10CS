@@ -1,3 +1,8 @@
+---
+layout: default
+title: CH03
+---
+
 # CH03 : Input/Output Functions and statements
 
 `stdio.h stands for standard input-output header , we will be learning to use the functions present in this header file.`

@@ -1,0 +1,5 @@
+title: Class10CS
+description: "This project is based on Class 10 Manipuri Board TextBook."
+theme: minima  # Default simple theme
+plugins:
+  - jekyll-relative-links

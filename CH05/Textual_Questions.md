@@ -1,3 +1,8 @@
+---
+layout: default
+title: CH05 Textual Questions
+---
+
 # SECTION A: REVIEW QUESTIONS AND EXERCISES 
 1. Explain with an example a `for` loop used in C.<br>
 

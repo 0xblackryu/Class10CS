@@ -1,3 +1,7 @@
+---
+layout: default
+title: CH02 Textual Questions
+---
 # REVIEW QUESTIONS AND EXERCISES
 1. What is a constant? Explain the constants in C. <br>
     Ans : Any unchanged value in a program during the program execution is called constant.<br>

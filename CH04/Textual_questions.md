@@ -1,3 +1,8 @@
+---
+layout: default
+title: CH04 Textual Questions
+---
+
 # SECTION A: REVIEW QUESTIONS AND EXERCISES
 1. Explain the various **if** structures available in C.
 
