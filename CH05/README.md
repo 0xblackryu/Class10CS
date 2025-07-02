@@ -1,6 +1,8 @@
 ---
 layout: default
-title: CH05
+title: CH05 - Loop Control Structures
+nav_order: 6
+has_children: true
 ---
 
 # CH05 : Loop Control Structures in C

@@ -1,3 +1,9 @@
+---
+layout: default
+title: 2025 Matric Questions
+nav_order: 20  # After all chapters but before About
+---
+
 # Computer Science Exam - 2025
 
 **Full Marks:** 80  

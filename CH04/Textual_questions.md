@@ -1,6 +1,8 @@
 ---
 layout: default
 title: CH04 Textual Questions
+nav_order: 1
+parent: CH04 - Control Statements
 ---
 
 # SECTION A: REVIEW QUESTIONS AND EXERCISES

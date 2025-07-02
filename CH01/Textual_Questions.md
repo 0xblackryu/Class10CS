@@ -1,6 +1,8 @@
 ---
 layout: default
 title: CH01 Textual Questions
+nav_order: 1
+parent: CH01 - Algorithm For Problem Solving
 ---
 
 # REVIEW QUESTIONS AND EXERCISES

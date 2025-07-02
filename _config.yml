@@ -3,3 +3,21 @@ description: "This project is based on Class 10 Manipuri Board TextBook."
 theme: minima  # Default simple theme
 plugins:
   - jekyll-relative-links
+
+remote_theme: pmarsceill/just-the-docs
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Enable collections
+collections:
+  chapters:
+    output: true
+    permalink: /:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

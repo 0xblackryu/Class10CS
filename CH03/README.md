@@ -1,6 +1,8 @@
 ---
 layout: default
-title: CH03
+title: CH03 - Input/Output Functions
+nav_order: 4
+has_children: true
 ---
 
 # CH03 : Input/Output Functions and statements

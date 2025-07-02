@@ -1,0 +1,19 @@
+docs:
+  - title: Home
+    url: /
+  - title: Curriculum
+    children:
+      - title: "CH01: Algorithm For Problem Solving"
+        url: /CH01/
+      - title: "CH02: Introduction to C Language"
+        url: /CH02/
+      - title: "CH03: Input/Output Functions"
+        url: /CH03/
+      - title: "CH04: Control Statements"
+        url: /CH04/
+      - title: "CH05: Loop Control Structures"
+        url: /CH05/
+  - title: Exam Questions
+    url: /Questions/
+  - title: About
+    url: /about/

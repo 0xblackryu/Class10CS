@@ -1,7 +1,10 @@
 ---
 layout: default
-title: CH02
+title: CH02 - Introduction to C Language
+nav_order: 3
+has_children: true
 ---
+
 > [!IMPORTANT]
 > All documentation will be on this readme no separate files
 

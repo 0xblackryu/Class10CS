@@ -1,6 +1,8 @@
 ---
 layout: default
 title: CH03 Textual Questions
+nav_order: 1
+parent: CH03 - Input/Output Functions
 ---
 
 # SECTION A: REVIEW QUESTIONS AND EXERCISES

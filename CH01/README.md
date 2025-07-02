@@ -1,6 +1,8 @@
 ---
 layout: default
-title: CH01
+title: CH01 - Algorithm For Problem Solving
+nav_order: 2
+has_children: true
 ---
 
 # CH01 : Algorithm for Problem Solving 

@@ -1,6 +1,8 @@
 ---
 layout: default
 title: CH05 Textual Questions
+nav_order: 1
+parent: CH05 - Loop Control Structures
 ---
 
 # SECTION A: REVIEW QUESTIONS AND EXERCISES 
