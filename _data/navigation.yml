@@ -4,16 +4,16 @@ docs:
   - title: Curriculum
     children:
       - title: "CH01: Algorithm For Problem Solving"
-        url: /CH01/
+        url: /ch01/
       - title: "CH02: Introduction to C Language"
-        url: /CH02/
+        url: /ch02/
       - title: "CH03: Input/Output Functions"
-        url: /CH03/
+        url: /ch03/
       - title: "CH04: Control Statements"
-        url: /CH04/
+        url: /ch04/
       - title: "CH05: Loop Control Structures"
-        url: /CH05/
+        url: /ch05/
   - title: Exam Questions
-    url: /Questions/
+    url: /questions/
   - title: About
     url: /about/

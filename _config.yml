@@ -6,10 +6,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-relative-links
 
-collections:
-  chapters:
-    output: true
-    permalink: /:path/
+# Disable automatic page collections
+just_the_docs:
+  collections:
+    chapters:
+      nav_exclude: true  # This prevents auto-listing of chapter pages
 
 defaults:
   - scope:
