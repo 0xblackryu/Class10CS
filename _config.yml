@@ -12,6 +12,9 @@ just_the_docs:
     chapters:
       nav_exclude: true  # This prevents auto-listing of chapter pages
 
+  includes:
+    head_custom: true
+
 defaults:
   - scope:
       path: ""
