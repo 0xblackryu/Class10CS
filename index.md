@@ -2,7 +2,6 @@
 layout: home
 title: Class 10 Computer Science
 nav_order: 1
-nav_exclude: false  # Explicitly show in nav
 ---
 
 <div align="center">
