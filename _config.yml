@@ -8,16 +8,9 @@ plugins:
 
 # Disable automatic page collections
 just_the_docs:
-  mermaid: 
-    enable: true
-    version: "10.6.1"
-    theme: "default"
   collections:
     chapters:
       nav_exclude: true  # This prevents auto-listing of chapter pages
-
-  includes:
-    head_custom: true
 
 defaults:
   - scope:
