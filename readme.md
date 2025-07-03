@@ -1,8 +1,3 @@
----
-layout: home
-title: Class 10 Computer Science
-nav_order: 1
----
 <div align="center">
 
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDk2dGpobWFvcTZjNHB3dmEybnFveDg5b2F5OHRvZnk2MHo1cmFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/owQJ2yEhoC1NxCncBi/giphy.gif" width="350" />
