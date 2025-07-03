@@ -6,8 +6,6 @@ nav_order: 1
 
 <div align="center">
 
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDk2dGpobWFvcTZjNHB3dmEybnFveDg5b2F5OHRvZnk2MHo1cmFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/owQJ2yEhoC1NxCncBi/giphy.gif" width="350" />
-
 # Class 10 Computer Science – Manipur Board  
 <h3><i>Focused on C language and application-based questions</i></h3>
 <h4><i>Visit the website at https://TanshenH.github.io/Class10CS</i></h4>
@@ -20,36 +18,35 @@ nav_order: 1
 
 - [📚 Curriculum](#-curriculum)
 - [📘 About This Project](#-about-this-project)
-- [💻 Compiler Recommendation](#-compiler-recommendation)
 - [🙏 Credits and Acknowledgements](#-credits-and-acknowledgements)
 
 ---
 
 ## 📚 Curriculum
 
-### [`CH01 : Algorithm For Problem Solving`](https://github.com/TanshenH/Class10CS/tree/main/CH01)
+### [`CH01 : Algorithm For Problem Solving`](https://tanshenh.github.io/Class10CS/ch01/readme.html)
 - Some common and important algorithms
 
-### [`CH02 : Introduction to C Language`](https://github.com/TanshenH/Class10CS/tree/main/CH02)
+### [`CH02 : Introduction to C Language`](https://tanshenh.github.io/Class10CS/ch02/readme.html)
 - What is C?
 - Variable, Constant, Library, Preprocessor Directives  
 - How to write a C program, Structure of a C program  
 - Data Types  
 - Different Operators
 
-### [`CH03 : Input/Output Functions and Statements`](https://github.com/TanshenH/Class10CS/tree/main/CH03)
+### [`CH03 : Input/Output Functions and Statements`](https://tanshenh.github.io/Class10CS/ch03/readme.html)
 - Use of `printf`, `scanf`, and other functions  
 - Escape sequences  
 - Format specifiers  
 - Textbook questions
 
-### [`CH04 : Control Statement in C`](https://github.com/TanshenH/Class10CS/tree/main/CH04)
+### [`CH04 : Control Statement in C`](https://tanshenh.github.io/Class10CS/ch04/readme.html)
 - If-else Statement  
 - Nested If-else Statement  
 - Switch Statement  
 - Textual Questions
 
-### [`CH05 : Loop Control Structures in C`](https://github.com/TanshenH/Class10CS/tree/main/CH05)
+### [`CH05 : Loop Control Structures in C`](https://tanshenh.github.io/Class10CS/ch02/readme.html)
 - For Loop  
 - While loop  
 - Do-While Loop  
@@ -60,26 +57,6 @@ nav_order: 1
 ## 📘 About This Project
 
 This repository is a self-study and support guide for students following the **Manipur Board Class 10 Computer Science** syllabus.
-
-### 📖 Textbook Reference:
-- **Title**: *Computer Science - 10 (Manipuri Edition 2023)*  
-- **Publisher**: Vikas Publishing House Private Limited  
-- **ISBN**: `978-93-5674-534-6`  
-- **Copyright**: © 2023  
-
-> 📖 This content is for **educational use only**. All rights belong to the original textbook publisher.
-
----
-
-## 💻 Compiler Recommendation
-
-> 🛠️ Use **TURBOC++** (as used in the textbook) for compatibility  
-> ✅ You can also use:
-- GCC
-- Clang
-- Online compilers like [OnlineGDB](https://www.onlinegdb.com/online_c_compiler) or [Replit](https://replit.com)
-
----
 
 ## 🙏 Credits and Acknowledgements
 
