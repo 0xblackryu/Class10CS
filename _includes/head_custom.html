@@ -1,22 +1,22 @@
 <!-- Mermaid.js support -->
-<style>
-  .mermaid {
-    background-color: white;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 20px 0;
-  }
-</style>
-<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
+  window.addEventListener('load', function() {
     mermaid.initialize({
       startOnLoad: true,
       theme: 'default',
-      flowchart: {
-        useMaxWidth: true,
-        htmlLabels: true
-      }
+      flowchart: { useMaxWidth: true, htmlLabels: true },
+      securityLevel: 'loose'  // Fixes potential strict mode issues
     });
+    mermaid.run();  // Force re-render if needed
   });
 </script>
+<style>
+  .mermaid {
+    background: white;
+    margin: 1.5em 0;
+    padding: 1em;
+    border-radius: 4px;
+    text-align: center;
+  }
+</style>
