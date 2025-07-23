@@ -188,7 +188,7 @@ int main(){
 
 [Hint: Find the smallest of given four test marks. Subtract it from the sum of four test marks. You will now get the sum of best three marks. Take the average
 
-i.e., average = $(T1 + T2 + T3 + T4 - smallest)/ 3$ <br>
+i.e., average = $\frac{T1 + T2 + T3 + T4 - smallest}{3}$ <br>
 
 Ans : 
 ```c
