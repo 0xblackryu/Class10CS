@@ -147,7 +147,7 @@ Q8. Mention the various conversion specifications for data I/O in C. <br>
 
 Ans :
 ```
-int :     : %d : represents a decimal integer value <br>
+int :     : %d : represents a decimal integer value 
           : %u : represents an unsigned integer value.
           : %o : represents an unsigned octal value.
           : %x : represents an unsigned hexadecimal value.
