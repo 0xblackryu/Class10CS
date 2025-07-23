@@ -251,7 +251,7 @@ int main() {
 }
 ```
  
-Q12. Write a C program to calculate the cut-off mark of a student using the formula $CM = \frac{M}{2} + \frac{P}{2} = \frac{C}{2} + E$ <br>
+Q12. Write a C program to calculate the cut-off mark of a student using the formula $CM = \frac{M}{2} + \frac{P}{2} - \frac{C}{2} + E$ <br>
 where CM = Cut-off mark <br>
       M = Marks in mathematics out of 200 <br>
       P = Mark in Physics out of 200 <br>
