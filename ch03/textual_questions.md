@@ -136,7 +136,7 @@ Q7. Explain the various character input/output functions in C. <br>
 
 Ans : 
 ```
-      getchat() function : It is used to read one character at a time from the standard input device(keyboard).<br>
+      getchat() function : It is used to read one character at a time from the standard input device(keyboard).
       putchar() function : It is ued to display one character at a time on the monitor screen.
       getch() function : It is used to read a character from the keyboard and it does not expect the enter key press.
       putch() function : It is used to display a character on the monitor.
