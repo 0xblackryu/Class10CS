@@ -228,7 +228,7 @@ int main(){
 
 8. Write a C program that will read the value of x and evaluate the function <br>
 y(x) = x² + 2x - 10 if x < 10 <br>
-= |x|               if x < 0
+ &nbsp;  &nbsp;  &nbsp;&nbsp;     = |x|               if x < 0
 using a **if** statement.<br>
 
 Ans : 
