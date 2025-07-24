@@ -86,7 +86,7 @@ Ans :
 | ------- | ------ |
 | i. if else statement uses condition to execute a block of statement. | i. Switch statement uses a single expression or value of a variable to execute a block of statement | 
 | ii. It's keywords are if, else and else if | ii. It's keywords are switch, case and default |
-| iii. It can contain multiple condition using logical operators | Each case can contain only one value | 
+| iii. It can contain multiple condition using logical operators | iii. Each case can contain only one value | 
 
 
 4. Explain with example the if statement and nested if statement in C.<br>
