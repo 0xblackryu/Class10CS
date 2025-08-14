@@ -8,7 +8,7 @@ nav_order: 1
 
 # Class 10 Computer Science – Manipur Board  
 <h3><i>Focused on C language and application-based questions</i></h3>
-<h4><i>Visit the website at https://TanshenH.github.io/Class10CS</i></h4>
+<h4><i>Visit the website at https://0xblackryu.github.io/Class10CS</i></h4>
 
 ---
 
@@ -24,34 +24,15 @@ nav_order: 1
 
 ## 📚 Curriculum
 
-### [`CH01 : Algorithm For Problem Solving`](https://tanshenh.github.io/Class10CS/ch01/readme.html)
-- Some common and important algorithms
+### [`CH01 : Algorithm For Problem Solving`](https://0xblackryu.github.io/Class10CS/ch01/readme.html)
 
-### [`CH02 : Introduction to C Language`](https://tanshenh.github.io/Class10CS/ch02/readme.html)
-- What is C?
-- Variable, Constant, Library, Preprocessor Directives  
-- How to write a C program, Structure of a C program  
-- Data Types  
-- Different Operators
+### [`CH02 : Introduction to C Language`](https://0xblackryu.github.io/Class10CS/ch02/readme.html)
 
-### [`CH03 : Input/Output Functions and Statements`](https://tanshenh.github.io/Class10CS/ch03/readme.html)
-- Use of `printf`, `scanf`, and other functions  
-- Escape sequences  
-- Format specifiers  
-- Textbook questions
+### [`CH03 : Input/Output Functions and Statement`](https://0xblackryu.github.io/Class10CS/ch03/readme.html)
 
-### [`CH04 : Control Statement in C`](https://tanshenh.github.io/Class10CS/ch04/readme.html)
-- If-else Statement  
-- Nested If-else Statement  
-- Switch Statement  
-- Textual Questions
+### [`CH04 : Control Statement in C`](https://0xblackryu.github.io/Class10CS/ch04/readme.html)
 
-### [`CH05 : Loop Control Structures in C`](https://tanshenh.github.io/Class10CS/ch02/readme.html)
-- For Loop  
-- While loop  
-- Do-While Loop  
-- Textual Questions
-
+### [`CH05 : Loop Control Structures in C`](https://0xblackryu.github.io/Class10CS/ch02/readme.html)
 ---
 
 ## 📘 About This Project
